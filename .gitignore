@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Testing/cache
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Original large dataset - don't upload
+data/airtel_enterprise_churn.csv
+
+# Allow compressed deployment dataset
+!data/airtel_enterprise_churn.csv.gz
+
+# Keep model + dashboard prediction file for deployment
+# Do NOT ignore churn_model.pkl or churn_predictions.csv
+
+# SQL-only generated prediction file
+models/churn_predictions_sql.csv

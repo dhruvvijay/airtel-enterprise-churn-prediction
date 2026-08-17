@@ -20,7 +20,7 @@ from feature_engineering import prepare_model_matrix
 
 st.set_page_config(page_title="Airtel Enterprise Churn Intelligence", layout="wide", page_icon="📡")
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "airtel_enterprise_churn.csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "airtel_enterprise_churn.csv.gz")
 PRED_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "churn_predictions.csv")
 MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "models", "churn_model.pkl")
 
