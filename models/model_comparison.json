@@ -1,0 +1,52 @@
+{
+  "comparison": {
+    "Logistic Regression": {
+      "Accuracy": 0.7662,
+      "Precision": 0.4724,
+      "Recall": 0.7752,
+      "F1": 0.5871,
+      "ROC_AUC": 0.848
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.8286,
+      "Precision": 0.6588,
+      "Recall": 0.416,
+      "F1": 0.51,
+      "ROC_AUC": 0.8423
+    },
+    "Random Forest": {
+      "Accuracy": 0.825,
+      "Precision": 0.6079,
+      "Recall": 0.5177,
+      "F1": 0.5592,
+      "ROC_AUC": 0.8396
+    },
+    "Decision Tree": {
+      "Accuracy": 0.7498,
+      "Precision": 0.4478,
+      "Recall": 0.7164,
+      "F1": 0.5511,
+      "ROC_AUC": 0.8012
+    }
+  },
+  "best_model": "Logistic Regression",
+  "top_features": {
+    "Customer_Satisfaction_Score": 0.472,
+    "Downtime_Hours": 0.4693,
+    "Number_of_Complaints": 0.3319,
+    "SLA_Breaches": 0.2632,
+    "Network_Uptime": 0.2468,
+    "NPS_Score": 0.2465,
+    "Number_of_Outages": 0.2309,
+    "Support_Response_Hours": 0.2137,
+    "Annual_Contract_Value": 0.1937,
+    "Billing_Issues": 0.1798,
+    "Service_Quality_Score": 0.1602,
+    "Packet_Loss_Percentage": 0.1571,
+    "Average_Latency_ms": 0.126,
+    "Complaint_Satisfaction_Gap": 0.117,
+    "Years_With_Airtel": 0.1074
+  },
+  "train_size": 20000,
+  "test_size": 5000
+}
